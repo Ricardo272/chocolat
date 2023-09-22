@@ -1,0 +1,65 @@
+body {
+  background-color: blueviolet;
+  width: 1080px;
+}
+body .container {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+body .container #logo {
+  border: solid 1px black;
+  padding: 0 25rem;
+}
+body .container nav {
+  border: solid 1px black;
+  padding: 1rem 16rem;
+  background-color: saddlebrown;
+  text-align: center;
+  display: inline-table;
+  inline-size: -webkit-fill-available;
+  font-weight: bold;
+}
+body .container nav a {
+  text-transform: uppercase;
+  background-color: saddlebrown;
+  padding: 0 1.5rem;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+main section {
+  background-color: #2c928a;
+  padding: 1rem;
+}
+main section img {
+  border-radius: 1rem;
+}
+main section h2 {
+  background-color: saddlebrown;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: unset;
+  color: white;
+}
+main section p {
+  color: white;
+}
+main aside {
+  background-color: white;
+  width: inherit;
+  padding: 1.5rem;
+}
+main aside h2 {
+  color: white;
+  background-color: saddlebrown;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main aside p {
+  color: saddlebrown;
+}/*# sourceMappingURL=style.css.map */
